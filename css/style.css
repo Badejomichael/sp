@@ -197,10 +197,24 @@ h4{
 
 /* mediaqueries */
 
-@media (max-width: 405px){
-    #main-section{
-        width: fit-content;
-    }
+
+@media (max-width: 500px) {
+  #main-section {
+    width: 490px;
+  }
+
+  #testimonials{
+    width: 490px;
+    /* padding-left: 22px; */
+  }
+
+  #about, .footer{
+    width: 480px;
+  }
+
+  #about h2{
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 990px){
